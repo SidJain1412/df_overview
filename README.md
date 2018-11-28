@@ -1,5 +1,5 @@
 # df_overview
-A pip package to give the user a quick overview of their dataset. (in a jupyter/iPython notebook)
+## A pip package to give the user a quick overview of their dataset. (in a jupyter/iPython notebook)
 
 ---
 ### Currently, this package shows you:
@@ -20,5 +20,6 @@ df=pd.read_csv("data.csv")
 df_overview.overview(df)
 ```
 Please be patient as the correlation plot may take time for a large number of columns.
+
 ---
 This project will be updated soon.
