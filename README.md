@@ -1,6 +1,5 @@
-# df_overview
 ## A pip package to give the user a quick overview of their dataset.
-## `pip install df_overview`
+#### `pip install df_overview`
 
 ---
 ### Currently, this package shows you:
