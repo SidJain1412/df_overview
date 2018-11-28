@@ -1,20 +1,28 @@
 '''
 Title: df_overview
 Purpose: A quick overview of your dataset with just one line!
-Github link: https://github.com/sidjain1412/df_overview
-Author: Siddharth Jain (github.com/sidjain1412)
+Github link: https://github.com/SidJain1412/df_overview
+Author: Siddharth Jain (github.com/SidJain1412)
 '''
 import warnings
 import seaborn as sns
 import matplotlib.pyplot as plt
+try:
+    from IPython.display import display
+except Exception as e:
+    print("Couldn't import iPython display, please open in a jupyter notebook")
+    print(str(e))
 warnings.filterwarnings("ignore")
 sns.set(style='white', color_codes=True)
 
 
 def overview(df):
-    basicview(df)
-    correlation(df)
-    head(df)
+    try:
+        basicview(df)
+        head(df)
+        correlation(df)
+    except Exception as e:
+        print(str(e))
 
 
 def basicview(df):
@@ -38,5 +46,6 @@ def correlation(df):
 
 def head(df):
     print()
+    print()
     print("Head: ")
-    print(df.head())
+    print(display(df.head()))
