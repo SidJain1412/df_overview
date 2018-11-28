@@ -23,4 +23,4 @@ df_overview.overview(df)
 Please be patient as the correlation plot may take time for a large number of columns.
 
 ---
-This project will be updated soon.
+This project will be updated frequently.
