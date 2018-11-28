@@ -1,10 +1,10 @@
 Metadata-Version: 1.0
 Name: df-overview
-Version: 0.1
+Version: 0.3
 Summary: Quick overview of a dataframe, for data analysis.
 Home-page: http://github.com/SidJain1412/df_overview
 Author: Siddharth Jain
 Author-email: sidjain1412@gmail.com
 License: MIT
-Description: UNKNOWN
+Description: A python package to do basic data analysis of your dataframe with just one line of code
 Platform: UNKNOWN

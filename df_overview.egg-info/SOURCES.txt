@@ -5,4 +5,5 @@ df_overview.egg-info/PKG-INFO
 df_overview.egg-info/SOURCES.txt
 df_overview.egg-info/dependency_links.txt
 df_overview.egg-info/not-zip-safe
+df_overview.egg-info/requires.txt
 df_overview.egg-info/top_level.txt
