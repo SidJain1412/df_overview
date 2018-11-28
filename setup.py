@@ -8,4 +8,11 @@ setup(name='df_overview',
       author_email='sidjain1412@gmail.com',
       license='MIT',
       packages=['df_overview'],
-      zip_safe=False)
+      zip_safe=False,
+      install_requires=[
+          'pandas>=0.23.4',
+          'numpy>=1.14.2',
+          'seaborn>=0.8.1',
+          'scipy>=1.0.0',
+		  'matplotlib>=2.1.2',
+      ],)
